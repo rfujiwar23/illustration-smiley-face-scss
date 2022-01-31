@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #fffbc8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  background-color: #fff157;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.circle .face {
+  width: 150px;
+  height: 170px;
+  left: 75px;
+  top: 75px;
+  position: relative;
+}
+.circle .mouth {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  bottom: 0;
+  left: 0;
+  background-color: #20184E;
+  border-radius: 10px 10px 150px 150px;
+  border: 5px solid #20184E;
+}
+.circle .eyes {
+  width: 150px;
+  height: 50px;
+  top: 10px;
+  left: 0;
+}
+.circle .eyes .eye {
+  background-color: #20184E;
+  width: 30px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+.circle .eyes .eye .left-eye {
+  position: absolute;
+  left: 15px;
+}
+.circle .eyes .eye .right-eye {
+  position: absolute;
+  right: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
